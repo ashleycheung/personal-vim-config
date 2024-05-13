@@ -4,6 +4,7 @@ set number
 
 " Makes copies be stored in clipboard
 set clipboard+=unnamedplus
+set clipboard+=unnamed
 
 set noswapfile
 

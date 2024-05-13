@@ -10,9 +10,9 @@ call plug#begin()
 	Plug 'tpope/vim-commentary'
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'elgiano/nvim-treesitter-angular', { 'branch': 'topic/jsx-fix' }
-  Plug 'f-person/git-blame.nvim'
+  " Plug 'f-person/git-blame.nvim'
   Plug 'nvim-tree/nvim-web-devicons'
-  Plug 'lukas-reineke/indent-blankline.nvim'
+  " Plug 'lukas-reineke/indent-blankline.nvim', { 'tag': '2.20.8' }
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
   Plug 'nvim-telescope/telescope-live-grep-args.nvim'
