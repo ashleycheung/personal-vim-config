@@ -3,6 +3,7 @@ nnoremap <c-p> <cmd>Telescope find_files<cr>
 nnoremap <c-l> <esc>:NERDTree % <cr>
 nnoremap <c-f> :lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>
 nnoremap <c-s> <esc>:echo "Type the search phrase and / to change the phrase"<cr><esc>:%s/
+nnoremap <c-b> <esc>:Telescope buffers<cr>
 
 " Override undo
 nnoremap <C-z> u

@@ -15,7 +15,8 @@ let g:coc_global_extensions = [
   \ 'coc-rust-analyzer',
   \ 'coc-pyright',
   \ 'coc-go',
-  \ '@yaegassy/coc-tailwindcss3'
+  \ '@yaegassy/coc-tailwindcss3',
+  \ 'coc-sql'
   \ ]
 
 " from readme

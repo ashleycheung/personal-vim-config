@@ -1,4 +1,4 @@
 " Colorscheme config
 
 set background=dark
-colorscheme catppuccin
+colorscheme claude-code
