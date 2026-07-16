@@ -20,3 +20,18 @@ xnoremap <leader>d "_d
 " Tab selection without unhighlighting
 :vnoremap < <gv
 :vnoremap > >gv
+
+command! -nargs=* Diff DiffviewOpen <args>
+
+function! ToggleTreeOrDiffview()
+  lua << EOF
+local ok, lib = pcall(require, "diffview.lib")
+if ok and lib.get_current_view() then
+  vim.cmd("DiffviewToggleFiles")
+else
+  vim.cmd("NERDTree %")
+end
+EOF
+endfunction
+
+nnoremap <silent> <C-l> :call ToggleTreeOrDiffview()<CR>
